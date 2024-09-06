@@ -1,0 +1,8 @@
+{
+  "name": "exec-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/droberts-ctrlo/exec-plugin",
+  "author": "Dave Roberts <d.roberts@ctrlo.com>",
+  "license": "MIT"
+}
