@@ -6,7 +6,8 @@
   "author": "Dave Roberts <d.roberts@ctrlo.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json"
+    "build": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json",
+    "postinstall": "tsc -b ./tsconfig.cjs.json ./tsconfig.esm.json ./tsconfig.types.json"
   },
   "exports": {
     "./*": {
