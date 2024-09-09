@@ -7,7 +7,7 @@ class ExecPlugin {
 
     apply(compiler) {
         compiler.hooks.done.tap('ExecPlugin', () => {
-            exec(command, (err, stdout, stderr) => {
+            exec(this.command, (err, stdout, stderr) => {
                 if (err) console.error(err);
                 if (stdout) console.log(stdout);
                 if (stderr) console.error(stderr);
